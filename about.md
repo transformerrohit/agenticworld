@@ -12,8 +12,8 @@ I specialize in architecting high-availability, low-latency systems and enterpri
 
 Currently, I lead a 21-member cross-functional team (AI Engineers, Software Developers, DevOps, BA) delivering:
 
-- Enterprise conversational AI systems powered by 20B and 120B parameter opengpt models
-- Agentic AI platforms integrating LLMs with computer vision models
+- Enterprise scale Agentic AI systems powered by 20B and 120B parameter opengpt models
+- Agentic AI platforms integrating LLMs with vision models
 - Scalable microservices architectures handling high transaction volumes
 - OR Tools Platform driving optimization and measurable cost efficiencies
 
@@ -34,5 +34,5 @@ unglamorous parts of running AI systems on-premise.
 
 ## Get in touch
 
-- Email: [Send Email](mailto:rohit@agenticworld.co.in)
+- Email: [ohit@agenticworld.co.in](mailto:rohit@agenticworld.co.in)
 - LinkedIn: [Linkedin Profile](https://www.linkedin.com/in/rohit-singh-2b509646/)
