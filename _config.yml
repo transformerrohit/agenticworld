@@ -1,0 +1,58 @@
+# ─────────────────────────────────────────────
+#  Site settings — edit these
+# ─────────────────────────────────────────────
+title: Agentic World
+description: Notes on agentic AI and enterprise architecture.
+url: "https://agenticworld.co.in"
+baseurl: ""
+
+author:
+  name: Rohit
+  email: you@example.com
+
+# Optional — uncomment and fill what you use.
+# These render as icons in Minima's footer.
+# github_username: your-github-username
+# linkedin_username: your-linkedin-id
+# twitter_username: your-x-handle
+
+# ─────────────────────────────────────────────
+#  Theme + plugins (GitHub Pages allowlist only)
+# ─────────────────────────────────────────────
+theme: minima
+minima:
+  skin: auto        # auto | classic | dark | solarized
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ─────────────────────────────────────────────
+#  TABS — this is your nav bar.
+#  Add a new .md file at root, then list it here.
+#  Order in this list = order in the nav bar.
+# ─────────────────────────────────────────────
+header_pages:
+  - index.md
+  - about.md
+
+# ─────────────────────────────────────────────
+#  Defaults — so you don't repeat yourself
+# ─────────────────────────────────────────────
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Nice URLs: /2026/07/16/hello-world/
+permalink: /:year/:month/:day/:title/
+
+# Don't publish these into the built site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,117 @@
+---
+# This empty front matter block is required — it tells Jekyll to process this file.
+---
+
+@import "{{ site.theme }}";
+
+/* ── Images never blow out the layout ───────────────────── */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+figure {
+  margin: 2rem 0;
+  figcaption {
+    font-size: 0.85rem;
+    color: #828282;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+
+/* ── Blog list ──────────────────────────────────────────── */
+.post-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.post-item {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.post-thumb {
+  flex: 0 0 140px;
+  img {
+    width: 140px;
+    height: 95px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.post-item-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-link-wrap {
+  margin: 0.2rem 0 0.4rem;
+  font-size: 1.4rem;
+  line-height: 1.25;
+}
+
+.post-excerpt {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.post-tags {
+  margin: 0 0 0.4rem;
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background: #f0f0f0;
+    color: #666;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    margin-right: 0.3rem;
+  }
+}
+
+.feed-subscribe {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+}
+
+/* ── Stack the thumbnail on mobile ──────────────────────── */
+@media screen and (max-width: 600px) {
+  .post-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .post-thumb {
+    flex: none;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 180px;
+    }
+  }
+  .profile-pic {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}
+
+/* ── Dark skin fixes (only apply if you set minima.skin) ── */
+@media (prefers-color-scheme: dark) {
+  .post-item { border-bottom-color: #2a2a2a; }
+  .post-excerpt { color: #aaa; }
+  .post-tags .tag { background: #2a2a2a; color: #aaa; }
+}
