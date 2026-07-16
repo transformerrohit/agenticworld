@@ -7,9 +7,9 @@ timezone: Asia/Kolkata
 url: "https://agenticworld.co.in"
 baseurl: ""
 
-author:
-  name: Rohit
-  email: rohit@agenticworld.co.in
+#author:
+#  name: Rohit
+#  email: rohit@agenticworld.co.in
 
 # Optional — uncomment and fill what you use.
 # These render as icons in Minima's footer.
