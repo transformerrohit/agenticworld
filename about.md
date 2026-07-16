@@ -34,5 +34,5 @@ unglamorous parts of running AI systems on-premise.
 
 ## Get in touch
 
-- Email: [ohit@agenticworld.co.in](mailto:rohit@agenticworld.co.in)
+- Email: [rohit@agenticworld.co.in](mailto:rohit@agenticworld.co.in)
 - LinkedIn: [Linkedin Profile](https://www.linkedin.com/in/rohit-singh-2b509646/)
