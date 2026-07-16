@@ -4,6 +4,10 @@
 
 @import "{{ site.theme }}";
 
+.footer-heading {
+  display: none;
+}
+
 /* ── Images never blow out the layout ───────────────────── */
 img {
   max-width: 100%;
