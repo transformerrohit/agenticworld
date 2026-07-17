@@ -3,10 +3,8 @@ layout: post
 title: "From LLM to Agentic AI"
 date: 2026-07-17 18:15:00 +0530
 description: "How we got from clever autocomplete to autonomous systems"
-tags: [llm, agentic-ai]
+tags: [llm agentic-ai]
 ---
-
-# From LLM → Agentic AI
 
 *How we got from clever autocomplete to autonomous systems - explained in plain language.*
 
