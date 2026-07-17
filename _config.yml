@@ -2,7 +2,7 @@
 #  Site settings — edit these
 # ─────────────────────────────────────────────
 title: Agentic World
-description: Notes on agentic AI and enterprise architecture.
+description: Blog on Agentic AI and enterprise architecture.
 timezone: Asia/Kolkata
 url: "https://agenticworld.co.in"
 baseurl: ""
