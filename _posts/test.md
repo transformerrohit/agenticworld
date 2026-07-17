@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 date: 2026-07-16 10:30:00 +0530
 description: "A short summary shown on the blog list and in link previews."
-image: /assets/images/2026-07-16-hello-world/hero.png
+image: /assets/images/test/hero.png
 tags: [meta, setup]
 ---
 
@@ -25,17 +25,17 @@ This is a post. Everything below the `---` block is plain markdown.
 Point at a file you've uploaded to `assets/images/`:
 
 ```markdown
-![Alt text](/assets/images/2026-07-16-hello-world/hero.png)
+![Alt text](/assets/images/test/hero.png)
 ```
 
 Which renders as:
 
-![A placeholder hero image](/assets/images/2026-07-16-hello-world/hero.png)
+![A placeholder hero image](/assets/images/test/hero.png)
 
 Need to control the width? Use plain HTML — Jekyll passes it straight through:
 
 ```html
-<img src="/assets/images/2026-07-16-hello-world/hero.png" alt="Diagram" width="500">
+<img src="/assets/images/test/hero.png" alt="Diagram" width="500">
 ```
 
 Want a caption?
