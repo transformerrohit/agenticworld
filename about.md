@@ -33,4 +33,4 @@ unglamorous parts of running AI systems on-premise.
 
 ## Get in touch
 
-- Email: [rohit@agenticworld.co.in](mailto:rohit@agenticworld.co.in)
+- Email: [contact@agenticworld.co.in](mailto:contact@agenticworld.co.in)
