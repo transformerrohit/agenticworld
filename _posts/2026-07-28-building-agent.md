@@ -28,7 +28,7 @@ Each tool does **exactly one job**. Conflating them is the most common source of
 | **LangSmith** | Traces every step for debugging & audit | The **eyes** (observability) |
 | **Open WebUI** | ChatGPT-style frontend for the model / agent | The **face** |
 
-> ⚠️ **The #1 catch:** the model *must natively support tool calling*. A chat model that doesn't will silently never call your tools. Stick to `llama3.1`, `qwen2.5` / `qwen3`, or `mistral`.
+> **The #1 catch:** the model *must natively support tool calling*. A chat model that doesn't will silently never call your tools. Stick to `llama3.1`, `qwen2.5` / `qwen3`, or `mistral`.
 
 ---
 
@@ -298,7 +298,7 @@ Your agent - tools, memory, and all - now appears as a selectable "model" (`onpr
 | What we added | Rung |
 |---|---|
 | Steps 1 | Raw **LLM** |
-| Step 2–3 | **Tools** + the agent loop = **AI Agent** |
+| Step 2-3 | **Tools** + the agent loop = **AI Agent** |
 | Step 4 | **Memory** |
 | Step 5 | **Governance & Observability** |
 | Step 6 | Delivery surface |
