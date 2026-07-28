@@ -18,3 +18,4 @@ unglamorous parts of running AI systems on-premise.
 ## Get in touch
 
 - Email: [contact@agenticworld.co.in](mailto:contact@agenticworld.co.in)
+- Instagram: [theagenticworld](https://www.instagram.com/theagenticworld/)
