@@ -73,7 +73,7 @@ llm = ChatOllama(
 print(llm.invoke("Explain what an AI agent is in one sentence.").content)
 ```
 
-**Teaching point:** right now this is a *pure LLM* - smart, but no hands and no memory (rung 1 of the LLM->agent ladder). It can only produce text.
+**Important Point:** right now this is a *pure LLM* - smart, but no hands and no memory (rung 1 of the LLM->agent ladder). It can only produce text.
 
 ---
 
@@ -133,7 +133,7 @@ final = llm_with_tools.invoke(messages)    # model reads the result, answers
 print(final.content)                       # -> "23 times 17 is 391."
 ```
 
-**Teaching point:** *that four-step dance - decide -> execute -> feed back -> answer - is the entire agent loop.* Everything after this just automates it.
+**Important point:** *that four-step dance - decide -> execute -> feed back -> answer - is the entire agent loop.* Everything after this just automates it.
 
 ---
 
@@ -189,7 +189,7 @@ resp = agent.invoke({"messages": [{"role": "user", "content": "What's my name?"}
 print(resp["messages"][-1].content)   # -> recalls "John"
 ```
 
-**Teaching point:** the `thread_id` *is* the memory boundary. Same id -> same conversation. For persistence across restarts, swap `MemorySaver` for a database-backed checkpointer (Postgres/SQLite savers exist) - that's the jump from working memory to long-term memory.
+**Important point:** the `thread_id` *is* the memory boundary. Same id -> same conversation. For persistence across restarts, swap `MemorySaver` for a database-backed checkpointer (Postgres/SQLite savers exist) - that's the jump from working memory to long-term memory.
 
 ---
 
@@ -206,7 +206,7 @@ export LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 
 Re-run any script above, then open the project in LangSmith. You'll see the full run tree: the prompt sent to the model, each tool call with its arguments and output, and the final answer nested inside.
 
-**Teaching point:** this is the "log every tool call" discipline made real. When an agent misbehaves, the trace is the *only* way you'll reconstruct what it actually did.
+**Important point:** this is the "log every tool call" discipline made real. When an agent misbehaves, the trace is the *only* way you'll reconstruct what it actually did.
 
 > **On-prem note:** vanilla LangSmith is a hosted (cloud) service - the traces leave your network. For a truly air-gapped setup you have two honest options: **self-hosted LangSmith** (available on the enterprise plan, runs in your own cluster), or export traces via **OpenTelemetry** into an observability stack you already run. If "on-prem" is a hard requirement, decide this *before* you standardise on cloud LangSmith.
 
@@ -305,7 +305,7 @@ Your agent - tools, memory, and all - now appears as a selectable "model" (`onpr
 
 ---
 
-## Cheat-sheet - the pitfalls to call out
+## The pitfalls to call out
 
 - **Model choice is destiny.** Small or non-tool-tuned models call tools poorly or not at all. Start with `llama3.1` or `qwen2.5`; only shrink the model once the logic works.
 - **Docstrings are prompts.** The `@tool` docstring and type hints are what the model reads to decide *when* and *how* to call it. Vague docstring -> wrong tool calls.
