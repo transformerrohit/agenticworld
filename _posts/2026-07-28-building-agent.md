@@ -15,7 +15,7 @@ tags: [agentic-ai]
 
 ---
 
-## The mental model (teach this first)
+## The mental model
 
 Each tool does **exactly one job**. Conflating them is the most common source of confusion:
 
