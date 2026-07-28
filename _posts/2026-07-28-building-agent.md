@@ -305,7 +305,7 @@ Your agent - tools, memory, and all - now appears as a selectable "model" (`onpr
 
 ---
 
-## Teaching cheat-sheet - the pitfalls to call out
+## Cheat-sheet - the pitfalls to call out
 
 - **Model choice is destiny.** Small or non-tool-tuned models call tools poorly or not at all. Start with `llama3.1` or `qwen2.5`; only shrink the model once the logic works.
 - **Docstrings are prompts.** The `@tool` docstring and type hints are what the model reads to decide *when* and *how* to call it. Vague docstring -> wrong tool calls.
