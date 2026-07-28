@@ -82,8 +82,8 @@ Everything above makes it powerful. This makes it *employable*. You can see what
 
 | Stages | What they add |
 |---|---|
-| 1–4 | **Capability** |
-| 5–7 | **Autonomy** |
+| 1-4 | **Capability** |
+| 5-7 | **Autonomy** |
 | 8 | **Trust** |
 
 Most teams get very excited about the middle and discover the hard way that the last one is what actually determines whether the thing ever leaves the lab.
