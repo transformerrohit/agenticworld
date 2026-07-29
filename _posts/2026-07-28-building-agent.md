@@ -8,7 +8,7 @@ tags: [agentic-ai]
 
 # Building Your First Agent - Fully On-Prem, Open Source
 
-*A step-by-step teaching guide. Everything runs on your own hardware - no API keys leave the building, no data goes to a cloud model. We climb one rung at a time: talk to the model -> give it a tool -> let it run the loop -> give it memory -> watch what it does -> put a UI on it.*
+*A step-by-step guide. Everything runs on your own hardware - no API keys leave the building, no data goes to a cloud model. We climb one rung at a time: talk to the model -> give it a tool -> let it run the loop -> give it memory -> watch what it does -> put a UI on it.*
 
 > **Stack:** Python · Ollama (local model) · LangChain · LangGraph · LangSmith · Open WebUI
 > **Tested against:** LangGraph v1.0 (stable), `langchain-ollama`, current `LANGSMITH_*` tracing vars.
