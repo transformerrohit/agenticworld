@@ -21,12 +21,9 @@
   }
 }
 
-.site-logo {
-  height: 32px;
+.site-header .site-logo {
+  height: 32px !important;
   width: auto;
-  vertical-align: middle;
-  margin-right: 0.5rem;
-  border-radius: 0;   /* cancels the global img rounding, if you want sharp edges */
 }
 
 /* ── Images never blow out the layout ───────────────────── */
