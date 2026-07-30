@@ -2,8 +2,6 @@
 layout: post
 title: "Agentic AI Concepts"
 date: 2026-07-28 19:28:00 +0530
-description: "Agentic AI Concepts"
-tags: [agentic-ai]
 ---
 
 # Agentic AI - The Big Picture

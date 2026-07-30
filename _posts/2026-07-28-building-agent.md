@@ -2,8 +2,6 @@
 layout: post
 title: "Building your First Agent"
 date: 2026-07-28 23:12:00 +0530
-description: "Building your First Agent"
-tags: [agentic-ai]
 ---
 
 # Building Your First Agent - Fully On-Prem, Open Source
